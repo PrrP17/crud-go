@@ -20,4 +20,6 @@
 
 # Go workspace file
 go.work
+
+# Ignore arquivos relacionados às chaves de API
 .env
