@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/PrrP17/crud-go.git/src/configuration/logger"
 	"github.com/PrrP17/crud-go.git/src/contreoller/routes"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
@@ -8,6 +9,8 @@ import (
 )
 
 func main() {
+
+	logger.Info("stater app")
 
 	err := godotenv.Load()
 	if err != nil {
